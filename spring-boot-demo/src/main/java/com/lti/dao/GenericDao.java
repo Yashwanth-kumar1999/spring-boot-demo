@@ -21,7 +21,7 @@ public class GenericDao {
 			
 			E e =  entityManager.find(clazz,  pk);
 			
-			
+			//this is generic dao class
 			return e;
 		}
 	}
